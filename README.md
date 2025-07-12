@@ -53,32 +53,47 @@ npm run preview
 
 ###  How to Use
 Switch to 2D View to enter colors
+
 Select from the color palette
-Ensure each color appears 9 times
-Click "Solve" to get moves
 
-Follow steps in the 3D viewer
+Ensure each color appears exactly 9 times
 
-🎨 Color Codes
+Click "Solve" to generate moves
+
+Follow the step-by-step solution in the 3D viewer
+
+### Color Codes
 W = White (Up)
+
 Y = Yellow (Down)
+
 R = Red (Front)
+
 O = Orange (Back)
+
 G = Green (Right)
+
 B = Blue (Left)
 
-🔤 Move Notation
+### Move Notation
 R = Right Clockwise
+
 R' = Right Counter-Clockwise
+
 R2 = Right 180°
-Other faces follow the same logic: U, D, F, B, L.
+
+Other faces follow the same logic: U, D, F, B, L
 
 ### Tech Stack
 React 18
+
 TypeScript
+
 Tailwind CSS
+
 Vite
-WebGL for 3D cube rendering
+
+WebGL (for 3D rendering)
 
 ###  Project Structure
 src/
@@ -90,14 +105,14 @@ src/
 
 
 ### Browser Support
-Chrome
-Firefox
-Safari
-Edge (latest versions)
+✅ Chrome
+✅ Firefox
+✅ Safari
+✅ Edge (latest versions)
 
 ### Credits
 Herbert Kociemba for the solving algorithm
 
 Speedcubing community for notation standards
 
-Built with 💡 by Dhruvkus-14
+Built with Love by Dhruv kushwaha
